@@ -1,11 +1,13 @@
 package Practice;
 
+import java.util.Arrays;
+
 public class BinarySearchElement {
 
 	public static void main(String[] args) {
 		int a[]= {1,2,3,4,5,6,7,8,9};
 		int key=4;
-		boolean status=false;
+		/*boolean status=false;
 		int l=0;
 		int h=a.length-1;
 		while(l<=h) {
@@ -24,6 +26,8 @@ public class BinarySearchElement {
 		}
 		if(status==false) {
 			System.out.println("element not found");
-		}
+		}*/
+		//2.arrays.binarysearch()
+		System.out.println(Arrays.binarySearch(a, 8));
 	}
 }
