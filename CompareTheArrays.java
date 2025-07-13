@@ -9,10 +9,10 @@ public class CompareTheArrays {
 		int a[]= {2,4,33,21,12,43,76};
 		int b[]= {2,4,33,21,12,43,76};
 		//1.with equals method from arrays class
-		boolean status=Arrays.equals(a,b);
+		//boolean status=Arrays.equals(a,b);
 		
 		//2.with logic
-		/*boolean status=true;
+		boolean status=true;
 		if(a.length==b.length) {
 			for(int i=0;i<a.length;i++) {
 			   if(a[i]!=b[i]) {
@@ -22,7 +22,7 @@ public class CompareTheArrays {
 		}
 		else {
 			status=false;
-		}*/
+		}
 		if(status==true) {
 			System.out.println("Arrays are equal");
 		}
