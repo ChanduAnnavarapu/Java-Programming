@@ -36,6 +36,7 @@ public class removeDuplicatesInString {
 				count=count+1;
 			}
 		}
-		System.out.println(wod.charAt(i)+" present in "+count+" times");
+	//System.out.println(wod.charAt(i)+" present in "+count+" times");
+	System.out.print(wod.charAt(i)+""+count);
 	}
 }}

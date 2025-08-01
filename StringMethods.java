@@ -8,7 +8,7 @@ public class StringMethods {
 		String s1="welcome to Java";
 		String s2="     Selenium is Automation tool        ";
 		String s3="abc@gmail.com";
-		StringBuffer s4=new StringBuffer("how are you");
+		StringBuilder s4=new StringBuilder("how are you");
 		StringBuilder s5=new StringBuilder("well wisher");
 		System.out.println(s1.length());
         System.out.println(s1+" "+s2);
